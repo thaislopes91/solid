@@ -1,0 +1,24 @@
+S - Single Responsibility Principle
+Principio de responsabilidade unica
+Esse principio preve que cada classe deve ter uma unica responsabilidade
+Ao notar se uma classe é muito grande, possui muitos metodos, provavelmente essa classe não tem coesão
+e dessa forma não segue esse principio.
+
+O - Open Closed
+Principio de Aberto e fechado
+Uma classe deve estar sempre aberta para implementações e extensões, porém deve estar fechada para alterações
+Ao criar a classe, sempre pensar nos atributos que não devem ser alterados com o tempo, mas sim podem
+se extender para novas classes filhas.
+
+L - Principio de Substituição de Liskov
+- A classe filha não pode infringir os conceitos base da classe mãe
+E não apenas o nome do metodo deve ser mantido, mas o conceito intrinseco que há dentro dele.
+Exemplo classico da classe retangulo, que possui uma classe filha que é a classe Quadrado.
+Porém ao calcular a área do quadrado o metodo não obtem o resultado esperado.
+Então ao não obter o resultado esperado, está contra esse principio de Liskov.
+Barbara Liskov
+
+I - Interface Segregation Principle
+Principio de segregação de interface
+Uma classe não deve ser obrigada a implementar metodos que não vai precisar.
+Esse conceito é bem parecido com o primeiro, pois não deve ter agregação de metodos que não fazem sentido a classe
